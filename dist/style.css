@@ -1,0 +1,39 @@
+.bg_img{
+    background-image: url("../Images/IMG-20230908-WA0031.jpg");
+    background-size: 100% 100%;
+}
+
+.btn {
+    background-color: #004181;
+}
+
+.waving-hand {
+    width: 24px;
+    height: 24px;
+    position: inherit;
+    display: inline-block;
+}
+
+.horizontal_or::before,
+.horizontal_or::after {
+    content: "";
+    width: 45%;
+    height: 1px;
+    display: block;
+    background-color: rgb(83, 83, 83);
+    position: absolute;
+    top: 50%;
+}
+
+.horizontal_or::after {
+    right: 1px;
+}
+.horizontal_or::before {
+    left: 1px;
+}
+
+.logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
